@@ -47,6 +47,15 @@
         }
       },
       {
+        "package": "PerfectMustache",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Mustache.git",
+        "state": {
+          "branch": null,
+          "revision": "a3bce7e83fb6995cb2048c2dab75e7ce07773819",
+          "version": "3.0.2"
+        }
+      },
+      {
         "package": "PerfectNet",
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Net.git",
         "state": {
@@ -78,8 +87,8 @@
         "repositoryURL": "https://github.com/neoneye/SwiftyServerRouter.git",
         "state": {
           "branch": null,
-          "revision": "b6e01bcc2f02b1d2f9c1d03ede025d28ef221e79",
-          "version": "0.4.0"
+          "revision": "ff6e402ca51d0b37d886491849e7ae1165fae3bf",
+          "version": "0.5.0"
         }
       }
     ]
