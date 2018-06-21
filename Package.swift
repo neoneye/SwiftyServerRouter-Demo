@@ -7,10 +7,11 @@ let package = Package(
     name: "SwiftyServerRouter-Demo",
     dependencies: [
 		.package(url: "https://github.com/neoneye/SwiftyServerRouter.git", .upToNextMajor(from: "0.4.0")),
+		.package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", .upToNextMajor(from: "3.0.0")),
     ],
     targets: [
         .target(
             name: "SwiftyServerRouter-Demo",
-            dependencies: ["SwiftyServerRouter"]),
+            dependencies: ["SwiftyServerRouter", "PerfectHTTPServer"]),
     ]
 )
