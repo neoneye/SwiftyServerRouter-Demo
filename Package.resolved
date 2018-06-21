@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "COpenSSL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-COpenSSL.git",
+        "state": {
+          "branch": null,
+          "revision": "7cc9341d0751b3d7e77927ad8c4e668e1c4dc1d1",
+          "version": "3.1.4"
+        }
+      },
+      {
+        "package": "PerfectCrypto",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Crypto.git",
+        "state": {
+          "branch": null,
+          "revision": "54e0f7c2a9d7355fca3c23e0f88096ac3765e08b",
+          "version": "3.1.2"
+        }
+      },
+      {
+        "package": "PerfectHTTP",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-HTTP.git",
+        "state": {
+          "branch": null,
+          "revision": "1800d923271679170f9beef030566c7290a2d170",
+          "version": "3.0.12"
+        }
+      },
+      {
+        "package": "PerfectNet",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Net.git",
+        "state": {
+          "branch": null,
+          "revision": "32cf5846ce212bf6aa2cb9d27a9b4f230355c1f9",
+          "version": "3.2.0"
+        }
+      },
+      {
+        "package": "PerfectThread",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Thread.git",
+        "state": {
+          "branch": null,
+          "revision": "d783048201086dc2cdc08627041e5001157db7f3",
+          "version": "3.0.4"
+        }
+      },
+      {
+        "package": "PerfectLib",
+        "repositoryURL": "https://github.com/PerfectlySoft/PerfectLib.git",
+        "state": {
+          "branch": null,
+          "revision": "cdc17d544ec8e87da5f3b24cdbda8d02d77bb943",
+          "version": "3.1.1"
+        }
+      },
+      {
+        "package": "SwiftyServerRouter",
+        "repositoryURL": "https://github.com/neoneye/SwiftyServerRouter.git",
+        "state": {
+          "branch": null,
+          "revision": "b6e01bcc2f02b1d2f9c1d03ede025d28ef221e79",
+          "version": "0.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
