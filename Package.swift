@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftyServerRouter-Demo",
     dependencies: [
-		.package(url: "https://github.com/neoneye/SwiftyServerRouter.git", .upToNextMajor(from: "0.5.0")),
+		.package(url: "https://github.com/neoneye/SwiftyServerRouter.git", .upToNextMajor(from: "0.6.0")),
 		.package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", .upToNextMajor(from: "3.0.0")),
     ],
     targets: [

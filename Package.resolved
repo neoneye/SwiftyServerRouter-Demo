@@ -87,8 +87,8 @@
         "repositoryURL": "https://github.com/neoneye/SwiftyServerRouter.git",
         "state": {
           "branch": null,
-          "revision": "ff6e402ca51d0b37d886491849e7ae1165fae3bf",
-          "version": "0.5.0"
+          "revision": "59f684be949c771c39edf4001d27b1f351046872",
+          "version": "0.6.0"
         }
       }
     ]
