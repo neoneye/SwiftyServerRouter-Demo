@@ -32,12 +32,7 @@ func doit() {
 
 	let server = HTTPServer()
 	server.serverPort = 8181
-
-	do {
-		let builder = RouteBuilder_PerfectRoutes()
-		builder.populate()
-		server.addRoutes(builder.routes)
-	}
+	server.addRoutesFromRouteBuilder()
 
 	do {
 		try server.start()
