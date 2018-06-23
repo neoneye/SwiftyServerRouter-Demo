@@ -1,0 +1,30 @@
+<div class="document_endpoints">
+
+<h2>{{endpoint_count}}</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Security</th>
+            <th>Method</th>
+            <th>Route</th>
+            <th>Purpose</th>
+            <th>Class</th>
+        </tr>
+    <thead>
+
+    <tbody>
+    {{#endpoint}}
+        <tr>
+            <td>{{security}}</td>
+            <td>{{method}}</td>
+            <td>{{route}}</td>
+            <td>{{purpose}}</td>
+            <td>{{class}}</td>
+        </tr>
+    {{/endpoint}}
+    <tbody>
+
+</table>
+
+</div>
