@@ -3,7 +3,7 @@ import SwiftyServerRouter
 import PerfectHTTPServer
 
 extension RouteBuilder {
-	func my_configure() {
+	func my_populate() {
 		get("/healthcheck", EP_GetHealthcheck.self)
 		get("/docs", EP_GetEndpointDocumentation.self)
 		scope("/v1") {
@@ -16,12 +16,14 @@ extension RouteBuilder {
 }
 
 func doit() {
+	PopulateRouteBuilder.populate = { $0.my_populate() }
+
 	let server = HTTPServer()
 	server.serverPort = 8181
 
 	do {
 		let builder = RouteBuilder_PerfectRoutes()
-		builder.my_configure()
+		builder.populate()
 		server.addRoutes(builder.routes)
 	}
 
