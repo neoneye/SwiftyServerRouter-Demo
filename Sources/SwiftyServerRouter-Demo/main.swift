@@ -4,6 +4,18 @@ import PerfectHTTPServer
 
 extension RouteBuilder {
 	func my_populate() {
+		// Static files
+		do {
+			let handler = PerfectHTTPServer.HTTPHandler.staticFiles
+			let route = "/**"
+			let purpose = "Serve static files"
+			let data: [String:Any] = [
+				"allowResponseFilters": true
+			]
+			perfect_endpoint(method: .get, route: route, purpose: purpose, data: data, handler: handler)
+			perfect_endpoint(method: .head, route: route, purpose: purpose, data: data, handler: handler)
+		}
+
 		get("/healthcheck", EP_GetHealthcheck.self)
 		get("/docs", EP_GetEndpointDocumentation.self)
 		scope("/v1") {
